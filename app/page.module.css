@@ -1,0 +1,98 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.passwordDisplay {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.password {
+  flex: 1;
+  padding: 20px;
+  background: #1a1a2e;
+  color: #00ff88;
+  border-radius: 8px;
+  font-family: monospace;
+  font-size: 18px;
+  word-break: break-all;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.copyBtn {
+  padding: 12px 24px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.strength {
+  text-align: center;
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.controls {
+  background: #f8f9fa;
+  padding: 24px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.lengthControl {
+  margin-bottom: 20px;
+}
+
+.lengthControl label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.lengthControl input {
+  width: 100%;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.option input {
+  width: 20px;
+  height: 20px;
+}
+
+.generateBtn {
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
