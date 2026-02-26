@@ -3,6 +3,9 @@ import './globals.css'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://password-generator.vercel.app'),
+  alternates: {
+    canonical: 'https://password-generator.vercel.app',
+  },
   title: 'Password Generator — Secure Random Passwords | Free Tool',
   description: 'Generate secure random passwords with custom length and character options. Free password generator.',
   keywords: ['password generator', 'random password', 'secure password', 'password maker'],
