@@ -17,11 +17,18 @@ export const metadata: Metadata = {
     siteName: 'Password Generator',
     title: 'Password Generator — Secure Random Passwords',
     description: 'Generate secure random passwords.',
+    images: [{
+      url: '/og-image.svg',
+      width: 1200,
+      height: 630,
+      alt: 'Password Generator — Secure Random Passwords',
+    }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Password Generator',
     description: 'Generate secure random passwords.',
+    images: ['/og-image.svg'],
   },
   robots: { index: true, follow: true },
 }
