@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useCallback, useEffect } from 'react'
+import DonationButton from './components/DonationButton'
 
 export default function Home() {
   const [length, setLength] = useState(16)
@@ -186,9 +187,12 @@ export default function Home() {
               <span className="text-slate-200 font-semibold">Password Generator</span>
             </div>
             <p className="text-sm text-slate-500">© 2024 SmartOK Tools. Generate secure passwords locally in your browser.</p>
-            <div className="flex gap-4 text-sm">
-              <a href="#" className="text-slate-500 hover:text-slate-300 transition-colors duration-200">Privacy</a>
-              <a href="#" className="text-slate-500 hover:text-slate-300 transition-colors duration-200">Terms</a>
+            <div className="flex items-center gap-4">
+              <div className="flex gap-4 text-sm">
+                <a href="#" className="text-slate-500 hover:text-slate-300 transition-colors duration-200">Privacy</a>
+                <a href="#" className="text-slate-500 hover:text-slate-300 transition-colors duration-200">Terms</a>
+              </div>
+              <DonationButton username="smartok" />
             </div>
           </div>
         </div>
